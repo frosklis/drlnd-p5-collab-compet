@@ -1,0 +1,9 @@
+numpy
+torch
+matplotlib  # needed in the jupyter notebook
+unityagents
+
+# ... having an issue with 1.7.1 which is downloaded by unityagents
+# so forcing install latest compatible version which means tensorflow version 1
+# currently this downloads 1.15.0
+tensorflow<2
